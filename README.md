@@ -1,1 +1,8 @@
-# FlickerImageAlbum
+# Spec
+* "시작" 버튼으로 사진 앨범화면으로 
+* 사진 앨범화면을 터치하면 아래에 메뉴뷰가 토글됨
+* 메뉴뷰에는 백버튼, 애니메이션 끄기 버튼, 애니메이션 시간 조절 기능
+* 백버튼을 누르면 초기화되면서 시작화면으로 이동 
+ 
+# Known Issue
+* flick에서 제공해주는 public api를 json으로 받을때 author로 내려오는 값이 이상할 경우 한번씩 parsing error 가 떨어짐
